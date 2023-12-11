@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet" />
+    <title>gallery</title>
+  </head>
+  <body>
+    <h1>Funny Superhero</h1>
+    <div class="container">
+      <ul class="gallery">
+        <li>
+          <a href="#gambar-groot">
+            <img src="thumbnail-img/grootthumb.jpg" alt="groot" />
+            <span>Groot</span>
+          </a>
+          <div class="overlay" id="gambar-groot">
+            <a href="#" class="close">Close</a>
+
+            <a href="#gambar-ded" class="prev">prev</a>
+            <img src="full-img/groot.jpg" alt="groot" />
+            <a href="#gambar-spidey" class="next">next</a>
+          </div>
+        </li>
+        <li>
+          <a href="#gambar-spidey">
+            <img src="thumbnail-img/spideythum.jpg" alt="spiderman" />
+            <span>Spiderman</span>
+          </a>
+          <div class="overlay" id="gambar-spidey">
+            <a href="#" class="close">Close</a>
+            <a href="#gambar-groot" class="prev">prev</a>
+            <img src="full-img/spiderman.jpg" alt="spiderman" />
+            <a href="#gambar-bat" class="next">next</a>
+          </div>
+        </li>
+        <li>
+          <a href="#gambar-bat">
+            <img src="thumbnail-img/batmanthumb.jpg" alt="batman" />
+            <span>Batman</span>
+          </a>
+          <div class="overlay" id="gambar-bat">
+            <a href="#" class="close">Close</a>
+            <a href="#gambar-spidey" class="prev"></a>
+            <img src="full-img/batman.jpg" alt="batman" />
+            <a href="#gambar-ded" class="next"></a>
+          </div>
+        </li>
+        <li>
+          <a href="#gambar-ded">
+            <img src="thumbnail-img/dedpolthumb.jpg" alt="deadpool" />
+            <span>Deadpool</span>
+          </a>
+          <div class="overlay" id="gambar-ded">
+            <a href="#" class="close">Close</a>
+            <a href="#gambar-bat" class="prev"></a>
+            <img src="full-img/deadpol.jpg" alt="deadpool" />
+            <a href="#gambar-groot" class="next"></a>
+          </div>
+        </li>
+        <div class="clear"></div>
+      </ul>
+      <h2>LightBox</h2>
+    </div>
+  </body>
+</html>
